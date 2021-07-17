@@ -6,9 +6,10 @@ class Kustomize < Formula
       :revision => "8f701a00417a812558a7b785e8354957afa469ae"
 
   bottle do
-    sha256 cellar: :any, "8413ec0b8fd4f9ee3bac2629b51fafdd5cf81a1cbbc2a19ec12b5bd08a0547c5" => :mojave
-    sha256 cellar: :any, "07f52df1f41f4daf9a8e7b1c2925967ee50527f7f3fc09c4e44fa2c331fd82cd" => :high_sierra
-    sha256 cellar: :any, "3ed58091ed7be69a7432f4e1049cac9b780fed064eeb083196b4f63b60f88d49" => :sierra
+    sha256 cellar: :any, catalina:    "17605f1674a5bc1f374f13137db550c51181e7eebae59513444d0f46032a2a78"
+    sha256 cellar: :any, mojave:      "ead278adf991ed6056b97806f5a7815f76340492d00b39801c863e907826a2ec"
+    sha256 cellar: :any, high_sierra: "f2a1fcbee158d5478f786a1ff7667c65061e15f8a0ebecdbc69e748c184cc8ef"
+    sha256 cellar: :any, sierra:      "3b554722d5011a8aa1906046d4d65b3482a121baf36c737aca4de1d270171e42"
   end
 
   depends_on "go" => :build
